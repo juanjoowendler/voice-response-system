@@ -39,8 +39,10 @@ This project is an **Interactive Voice Response (IVR) system** developed as part
 
 You can find detailed project documentation in the following PDF files:
 
-[Project Overview](project-assets/pdfs/PPAI2023_3K2_G6_E1_Analisis.pdf)
-[Project Overview](project-assets/pdfs/PPAI2023_3K2_G6_R3_Diseño.pdf)
+[Link a Vista de Analisis](project-assets/pdfs/PPAI2023_3K2_G6_E1_Analisis.pdf)
+
+
+[Link a Vista de Diseño](project-assets/pdfs/PPAI2023_3K2_G6_R3_Diseño.pdf)
 
 
 
