@@ -28,6 +28,21 @@ This project is an **Interactive Voice Response (IVR) system** developed as part
 
 ## 📷 Screenshots
 
-![Screenshot 1]()
-![Screenshot 2]()
-![Screenshot 3]()
+![Screenshot 1](project-assets/img1.png)
+![Screenshot 1](project-assets/img2.png)
+![Screenshot 1](project-assets/img3.png)
+![Screenshot 1](project-assets/img4.png)
+![Screenshot 1](project-assets/img5.png)
+![Screenshot 1](project-assets/img6.png)
+
+## 📄 Documentation (BORING...)
+
+You can find detailed project documentation in the following PDF files:
+
+[Project Overview](project-assets/pdfs/PPAI2023_3K2_G6_E1_Analisis.pdf)
+[Project Overview](project-assets/pdfs/PPAI2023_3K2_G6_R3_Diseño.pdf)
+
+
+
+
+
