@@ -1,0 +1,45 @@
+
+
+import React, {useState} from 'react';
+import { useEffect } from 'react';
+import { llamadasService } from '../services/llamadas.services';
+import { useForm } from 'react-hook-form';
+
+// fijarse que nombre tienen los atributos de los objetos que llegan para poder renderizarlos..
+
+const ValidacionesComponent = ({
+  actualizarParteDePagina,
+  desVal
+}) => {
+  const [datoAValidar, setDatoAValidar] = useState()
+  const [listaValid, setValidacion] = useState([])
+  const {register, handleSubmit, setValue} = useForm()
+
+  const actualizar = (data) => {
+    console.log(data)
+    actualizarParteDePagina() 
+  }
+  useEffect(() =>{
+    const traerLlamada = async () => {   
+        const respuesta = await llamadasService.buscarValidacionLlamada();
+        //const rdo = await llamadasService.buscarValidacionesLlamada();
+        console.log(respuesta)
+        setDatoAValidar(respuesta)   
+        console.log(datoAValidar)    
+    }
+    traerLlamada();
+  }, []);
+  return (
+    <div>
+      <form onSubmit={actualizar}>
+        <div>
+          <label className="form-label">{datoAValidar.nroOrden}</label>
+        </div>
+      </form>
+    </div>
+  )
+};
+
+
+export default ValidacionesComponent
+

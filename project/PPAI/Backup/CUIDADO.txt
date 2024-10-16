@@ -1,0 +1,4 @@
+Si van a crear un BACKUP y clonan acá el repositorio para dejar constancia, no se olviden de 
+borrar la carpeta .git antes de añadirlo al BACKUP del proyecto general.
+(Está oculta...)
+

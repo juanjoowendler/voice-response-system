@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'RobotoMediana';
+    src: url("../fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'RobotoBold';
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+.App{
+    background-color: #ECF0F5;
+}
+
+#header{
+    border-bottom: 2px solid #777575;
+    font-family: RobotoBold;
+    background-color: #37BBED;
+    height: 200px;
+}
+
+.card{
+    background-color: #F2F4FF;
+}
+
+#filaTituloPrincipal{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#acceptBottom {
+    background-color:#07BA3D;
+    font-family: RobotoMediana;
+}
+
+.tituloCard{
+    font-family: RobotoBold;
+}
+
+#logo{
+    width: 7%;
+    margin-left: 10px;
+}
+
+#texto{
+    font-family: RobotoMediana;
+}
+
+#rollbackBottom{
+    background-color: rgb(250, 250, 87);
+    font-family: RobotoMediana;
+    color: black
+}
