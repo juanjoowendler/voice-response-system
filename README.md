@@ -35,7 +35,7 @@ This project is an **Interactive Voice Response (IVR) system** developed as part
 ![Screenshot 1](project-assets/img5.png)
 ![Screenshot 1](project-assets/img6.png)
 
-## 📄 Documentation (BORING...)
+## 📄 Documentation 
 
 You can find detailed project documentation in the following PDF files:
 
